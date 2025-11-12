@@ -1,9 +1,9 @@
 public class Empleado {
 
     //Atributos de la clase
-    private String nombre;
-    private double salario;
-    private String departamento;
+    protected String nombre;
+    protected double salario;
+    protected String departamento;
 
     //Constructor
     public Empleado(String nombre, double salario, String departamento) {
@@ -37,6 +37,16 @@ public class Empleado {
         this.departamento = departamento;
     }
 
+    //method para ver la info
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "nombre='" + nombre + '\'' +
+                ", salario=" + salario +
+                ", departamento='" + departamento + '\'' +
+                '}';
+    }
 };
 
 
