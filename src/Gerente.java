@@ -7,6 +7,7 @@ public class Gerente extends Empleado {
         this.bono = bono;
     }
 
+    //sobreescribimos el method para añadir el nuevo atributo
     @Override
     public String toString() {
         return "Gerente:" +
