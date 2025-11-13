@@ -2,6 +2,7 @@ public class Gerente extends Empleado {
     //añadimos el atributo bono
     private double bono;
 
+    //constructor del gerente
     public Gerente(String nombre, double salario, String departamento, double bono) {
         super(nombre, salario, departamento);
         this.bono = bono;
